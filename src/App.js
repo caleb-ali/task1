@@ -8,15 +8,37 @@ const App = () => {
       <div class="pt-4" id= "profile__img">
         <img class="h-24 w-24 rounded-full " src={profileimg} alt="" />
       </div>
-      <p class="pt-4">Caleb Ali</p>
+      <p class="mt-8 font-bold">Caleb Ali</p>
       
-      <a class="" href="https://twitter.com/GodfatherDev" target="_blank" rel="noreferrer">Twitter link</a>
-      <a class="" href="" target="_blank" rel="noreferrer">hidden slack</a>
-      <a class="" href="" target="_blank" rel="noreferrer">Zuri Team</a>
-      <a class="" href="" target="_blank" rel="noreferrer">Zuri Books</a>
-      <a class="" href="" target="_blank" rel="noreferrer">Python Books</a>
-      <a class="" href="" target="_blank" rel="noreferrer">Background Check for Coders</a>
-      <a class="" href="" target="_blank" rel="noreferrer">Design Books</a>
+      <a type="button" class=" w-5/6 mt-12 text-center inline-block  py-4 bg-gray-200 text-gray-700 font-medium text-xs 
+      leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 
+      focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition
+       duration-150 ease-in-out" href="https://twitter.com/GodfatherDev" 
+       target="_blank" rel="noreferrer" id="twitter">Twitter link</a>
+      <a class="w-5/6 mt-4 text-center inline-block  py-4 bg-gray-200 text-gray-700 font-medium text-xs 
+      leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 
+      focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition
+       duration-150 ease-in-out" href="" target="_blank" rel="noreferrer" id="slack" style={{ display: "none" }}>alicaleb</a>
+      <a class="w-5/6 mt-4 text-center inline-block  py-4 bg-gray-200 text-gray-700 font-medium text-xs 
+      leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 
+      focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition
+       duration-150 ease-in-out" href="https://training.zuri.team/" target="_blank" rel="noreferrer" id="btn__zuri">Zuri Team</a>
+      <a class="w-5/6 mt-4 text-center inline-block py-4 bg-gray-200 text-gray-700 font-medium text-xs 
+      leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 
+      focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition
+       duration-150 ease-in-out" href="http://books.zuri.team" target="_blank" rel="noreferrer" id="books">Zuri Books</a>
+      <a class="w-5/6 mt-4 text-center inline-block py-4 bg-gray-200 text-gray-700 font-medium text-xs 
+      leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 
+      focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition
+       duration-150 ease-in-out" href="https://books.zuri.team/python-for-beginners?ref_id=<alicaleb>" target="_blank" rel="noreferrer" id="book__python">Python Books</a>
+      <a class="w-5/6 mt-4 text-center inline-block py-4 bg-gray-200 text-gray-700 font-medium text-xs 
+      leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 
+      focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition
+       duration-150 ease-in-out" href="https://background.zuri.team" target="_blank" rel="noreferrer" id="pitch">Background Check for Coders</a>
+      <a class="w-5/6 mt-4 text-center inline-block py-4 bg-gray-200 text-gray-700 font-medium text-xs 
+      leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 
+      focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition
+       duration-150 ease-in-out" href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer" id="book__design">Design Books</a>
       
     </div>
   );
