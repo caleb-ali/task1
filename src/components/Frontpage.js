@@ -1,9 +1,9 @@
 import React from "react";
-import profileimg from "./images/profileimg.jpg";
-import slackimg from "./images/Slack_Mark_Web.png";
-import share from "./images/buttonshare.png";
+import profileimg from "../images/profileimg.jpg";
+import slackimg from "../images/Slack_Mark_Web.png";
+import share from "../images/buttonshare.png";
 import { FaGithub } from "react-icons/fa";
-import "./input.css";
+import "../input.css";
 
 const App = () => {
   return (
@@ -28,6 +28,7 @@ const App = () => {
         id="twitter"
       >
         Twitter link
+      
       </a>
       <a
         class=" hidden w-5/6 mt-4 text-center inline-block  py-5 bg-gray-200 text-gray-700 font-medium text-xs 
@@ -101,6 +102,20 @@ const App = () => {
       >
         Design Books
       </a>
+
+      <a
+        class="  w-5/6 mt-5 text-center inline-block py-5 bg-gray-200 text-gray-700 font-medium text-xs 
+      leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 
+      focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition
+       duration-150 ease-in-out"
+        href="/contact"
+        target="_blank"
+        rel="noreferrer"
+        id="contact"
+      >
+        Contact Me
+      </a>
+
       <div class="mt-6 flex space-x-3">
         <img class="w-10 h-10 " src={slackimg} alt="" />
         <FaGithub class=" w-5 h-5 mt-2.5" />

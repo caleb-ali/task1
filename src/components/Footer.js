@@ -1,12 +1,11 @@
 import React from 'react';
-import "./input.css";
-import footer from "./images/Footerfooter.png";
+import footer from "../images/Footerfooter.png";
 
 const Footer = () => {
   return (
     
      
-      <div class=" mt-28 ">
+      <div class=" mt-28 grid place-items-center">
       <img class=" " src={footer} alt="" />
       </div>
   )
