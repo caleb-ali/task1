@@ -6,7 +6,7 @@ const Contactdetails = () => {
       <h1 class="mb-4 text-4xl tracking-tight font-bold text-left" s>
         Contact Me
       </h1>
-      <p>Hi there, contact me to ask about anything you have in mind.</p>
+      <p class="text-gray-700">Hi there, contact me to ask about anything you have in mind.</p>
       <div class="md:flex items-center gap-4 mt-12">
         <div class="">
           <label class="font-semibold  text-gray-700">First name</label>
